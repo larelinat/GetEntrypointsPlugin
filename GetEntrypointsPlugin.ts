@@ -39,5 +39,3 @@ export default class GetEntrypointsPlugin implements IGetEntrypointsPlugin {
     }
 
 }
-
-module.exports = GetEntrypointsPlugin;
