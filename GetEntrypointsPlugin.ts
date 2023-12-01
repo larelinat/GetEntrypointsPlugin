@@ -37,5 +37,4 @@ export default class GetEntrypointsPlugin implements IGetEntrypointsPlugin {
 
         })
     }
-
 }
