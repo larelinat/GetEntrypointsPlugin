@@ -1,7 +1,7 @@
 import {Compiler} from "webpack";
 
 /**
-* Interface for GetEntrypointsPlugin that describe an options.
+* Interface for GetEntrypointsPlugin that describes an options.
 *
 * @inteface IGetEntrypointsOptions
  */
@@ -13,7 +13,7 @@ export interface IGetEntrypointsOptions {
 }
 
 /**
- * Interface for GetEntrypointsPlugin that describe a plugin's class.
+ * Interface for GetEntrypointsPlugin that describes a plugin's class.
  *
  * @interface IGetEntrypointsPlugin
  */
@@ -25,7 +25,7 @@ export interface IGetEntrypointsPlugin {
     options: IGetEntrypointsOptions;
 
     /**
-     * Main function that used to work the plugin.
+     * Main function that needs to work the plugin.
      *
      * @param {Compiler} compiler - The compiler to apply.
      * @return {void} This function does not return anything.
